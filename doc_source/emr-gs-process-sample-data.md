@@ -71,7 +71,7 @@ Use the **Add Step** option to submit your Hive script to the cluster using the 
 
      Replace *region* with your region identifier\.
    + For **Output S3 location**, type or browse to the `output` bucket that you created in [Create an Amazon S3 Bucket](emr-gs-prerequisites.md#emr-gs-create-bucket)\.
-   + For **Action on failure**, accept the default option **Continue**\. This specifies that if the step fails, the cluster continues to run and processes subsequent steps\. The **Cancel and wait** option specifies that a failed step should be canceled, that subsequent steps should not run, abut that the cluster should continue running\. The **Terminate cluster** option specifies that the cluster should terminate if the step fails\.
+   + For **Action on failure**, accept the default option **Continue**\. This specifies that if the step fails, the cluster continues to run and processes subsequent steps\. The **Cancel and wait** option specifies that a failed step should be canceled, that subsequent steps should not run, but the cluster should continue running\. The **Terminate cluster** option specifies that the cluster should terminate if the step fails\.
 
 1. Choose **Add**\. The step appears in the console with a status of **Pending**\.
 
